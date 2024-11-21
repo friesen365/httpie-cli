@@ -1,12 +1,7 @@
 name: Build Windows Executable
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+  workflow_dispatch:  # 手动触发工作流
 
 jobs:
   build:
